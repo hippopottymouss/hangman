@@ -7,7 +7,6 @@ words = content.lower().split("\n")
 
 random_word = random.choice(words) 
 
-#random_word = "apple"
 
 num_letters = len(random_word)
 anon_word = num_letters * "#"
